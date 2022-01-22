@@ -21,3 +21,12 @@ while(i < classMates.length){
     console.log("Great to see you, "+ classMates[i],'!')
     i = i + 1;
 }
+
+/* Revision code*/
+const students = ["sumaya", "fatumo", "humma", "farhah", "jean"];
+
+console.log(students.length);
+
+for(let i = 0; i < students.length; i++){
+    console.log("Great to see you, " + students[i] +"!");
+}

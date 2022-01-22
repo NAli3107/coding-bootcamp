@@ -30,3 +30,39 @@ console.log(galaxy)
 //toUpperCase()method converts strings to uppercase letters without changing original string.
 let starCapital = star.toUpperCase();
 console.log(starCapital);
+
+/* Revision Code */
+
+var constellations = ["Orion", "Scorpius", "Lyra", "Ursa Major", "Ursa Minor"];
+var planets = ["Earth", "Saturn", "Mars", "Jupiter", "Uranus", "Venus"];
+var star = "polaris";
+
+console.log(constellations);
+
+function addingArrayElement() {
+    constellations.unshift("Canis Major");
+    return console.log (constellations);
+};
+addingArrayElement()
+
+
+console.log(planets);
+
+function removeArrayElement() {
+    planets.splice(5,1);
+    return console.log(planets);
+};
+removeArrayElement()
+
+
+function concatenatedArrays(){
+    const galaxy = constellations.concat(planets);
+    return console.log(galaxy);
+};
+concatenatedArrays();
+
+function uppercaseString(){
+    const capitalStar = star.toUpperCase();
+    return console.log(capitalStar);
+}
+uppercaseString()
