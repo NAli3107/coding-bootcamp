@@ -1,6 +1,9 @@
 // TODO: Which element is the following line of code selecting?
+// It's selecting the div with the class name carouselbox.
 var carousel = document.querySelector(".carouselbox");
+
 // TODO: Which element is the following line of code selecting?
+// It's selecting the button element.
 var next = carousel.querySelector(".next");
 var prev = carousel.querySelector(".prev");
 var index = 0;
@@ -30,6 +33,7 @@ function navigate(direction) {
 carousel.addEventListener("click", function() {
   window.location.href = images[index];
 });
+// Upon clicking the carousel buttons, the images are selected from the window object.
 
 // TODO: Describe the functionality of the following event listener.
 next.addEventListener("click", function(event) {
